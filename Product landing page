@@ -1,0 +1,65 @@
+<!-- html content-->
+<header id="header">
+  <figure>
+    <img src="https://image.shutterstock.com/image-vector/luxurious-nature-floral-leaf-ornament-600w-1938357313.jpg" alt="candlees" id="header-img" width="50rem" height="auto">
+  </figure>
+
+  <nav id="nav-bar">
+    <a class="nav-link" href="#header">Home</a>
+    <a class="nav-link" href="#video">Production process</a>
+    <a class="nav-link" href="#contact">Contact form</a>
+
+  </nav>
+</header>
+
+<body class="flex-container">
+
+  Handcrafted vegan candles production.<br>
+
+  <video id="video" controls>
+    <source src="https://ak.picdn.net/shutterstock/videos/1082319898/preview/stock-footage-pouring-melted-soy-wax-in-glass-crafting-natural-candle-at-home-hobby.webm" type="video/webm">
+
+  </video>
+
+  <div id="contact">
+    Please enter your data for a non-binding offer.
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <label for="email">E-mail:
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+      </label>
+      <input type="submit" id="submit" value="Submit">
+    </form>
+  </div>
+</body>
+<!-- CSS content -->
+#header {
+  font-size: 2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 0.5rem;
+  background-color: #bcf5bc;
+  font-family: helvetica;
+  color: black;
+}
+.nav-link {
+  font-size: 1rem;
+}
+body {
+  padding-top: 15rem;
+  background-color: #e9fce9;
+}
+
+@media (min-width: 900px) {
+  .flex-container {
+    flex-direction: row;
+  }
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
