@@ -1,0 +1,42 @@
+<!-- This excercise only require html code to pass -->
+
+<body>
+  <h1 id="title">Survey on how many people drive electric/gas/diesel cars</h1>
+  <p id="description"> This is to have an idea of what employees of the company drive and adapt infrastructure to their needs (e.g. more EV charging stations) </p>
+  <form id="survey-form">
+    <label id="name-label" for="name">Name</label><br>
+    <input type="text" id="name" name="Name" placeholder="Enter your name" required><br>
+    <label id="email-label" for="email">E-mail address:</label><br>
+    <input type="email" id="email" placeholder="Enter your e-mail address" required>
+    <br>
+    <label id="number-label" for="number">Age:</label><br>
+    <input type="number" id="number" placeholder="Enter your age" min="0" max="99"><br>
+    <label for="dropdown">Which type of fuel does the powertrain of your car use?</label><br>
+    <select id="dropdown" name="dropdown">
+      <option value="petroleum">Gas/diesel</option>
+      <option value="electric">Electric</option>
+      <option value="hybrid">Plug-in hybrid</option>
+    </select>
+    <br>Would you like more EV charging stations?
+    <br>
+    <label for="fuel">yes
+      <input type="radio" id="radio1" name="fuel" value="yes"><br></label>
+    <label for="fuel">no
+      <input type="radio" id="radio2" name="fuel" value="no"><br></label>
+
+    Which types of vehicles do you use to come to work?
+    :<br>
+    <label for="checkbox3">car</label>
+    <input type="checkbox" id="checkbox3" name="fuel" value="diesel">
+    <label for="checkbox1">bicycle</label>
+    <input type="checkbox" id="checkbox1" name="fuel" value="gas">
+    <label for="checkbox2">public transportation</label>
+    <input type="checkbox" id="checkbox2" name="fuel" value="electric">
+    <br>
+    <textarea id="textarea" placeholder="Enter any additional comments here"></textarea>
+
+    <br><input type="submit" id="submit"><br>
+
+  </form>
+
+</body>
