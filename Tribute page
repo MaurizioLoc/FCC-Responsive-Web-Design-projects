@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<style>
+#main {
+text-align: center;
+  font-family: helvetica;
+  background-color: #90EE90;
+}
+#title {font-size: 3rem;
+  background-color: white;
+  padding: 1rem;
+  width: 50rem;  
+    margin: auto;
+  
+}
+#image {
+  display: block;
+  width:50%;
+  max-width: 50%;
+  height: auto;
+  margin: auto;
+
+    
+}
+#img-div {  background-color: white;
+  margin: auto;
+  padding: 1rem;
+  width: 50rem;  }
+#img-caption {
+  background-color: white;
+  margin: auto;
+  padding: auto;
+  width: 50rem;
+font-size: 0.7rem;}
+#tribute-info {
+  background-color: white;
+  margin: auto;
+  padding: 1rem;
+  width: 50rem;
+  text-align: justify;
+}
+#tribute-link {
+  font-size: 0.7rem;
+  background-color: white;
+  margin: auto;
+  padding: 1rem;
+  width: 50rem;
+  text-align: justify;
+}
+</style>
+<body id="main">
+  <header id="title">
+    Bruno Manser
+  </header>
+
+  <div id="img-div">
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Bruno_Manser.jpg" id="image" alt="this is a picture of Bruno manser">
+
+    <div id="img-caption">
+      Photo of Bruno Manser<br>
+      (Library Am Guisanplatz, Collection Rutishauser. CC BY-SA 4.0.)
+    </div>
+  </div>
+  
+  <main id="tribute-info">
+    Bruno Manser (25 August 1954 – presumed dead 10 March 2005) was a Swiss environmentalist and human rights activist. From 1984 to 1990, he stayed with the Penan tribe in Sarawak, Malaysia, organising several blockades against timber companies. After he emerged from the forests in 1990, he engaged in public activism for rainforest preservation and the human rights of indigenous peoples, especially the Penan, which brought him into conflict with the Malaysian government. He also founded the Swiss non-governmental organization (NGO) Bruno Manser Fonds in 1991. Manser disappeared during his last journey to Sarawak in May 2000 and is presumed dead.
+
+
+  </main>
+  <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Bruno_Manser"> Follow this link to learn more about the guy (Wikipedia)
+  </a>
+</body>
+</html>
