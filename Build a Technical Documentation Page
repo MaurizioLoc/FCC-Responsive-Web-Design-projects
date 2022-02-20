@@ -1,0 +1,96 @@
+<!-- html -->
+<nav id="navbar">
+  <header>Coding animals</header><br>
+  <a class="nav-link" href="#Introduction">Introduction</a><br>
+   <a class="nav-link" href="#Dogs">Dogs</a><br>
+   <a class="nav-link" href="#Cats">Cats</a><br>
+   <a class="nav-link" href="#Rabbits">Rabbits</a><br>
+   <a class="nav-link" href="#Furetti">Furetti</a><br>
+</nav>
+
+<main id="main-doc">
+  <section id="Introduction" class="main-section">
+  <header>Introduction</header>
+  <p>
+    This is the main text
+  </p>
+      <p>
+    This is the main text
+  </p><code>some random code</code>
+      <p>
+    This is the main text
+  </p><code>some random code</code>
+      <p>
+    This is the main text
+  </p>
+    </p><code>some random code</code>
+      <p>
+    This is the main text
+  </p><code>some random code</code>
+      <p>
+    This is the main text
+  </p><code>some random code</code>
+  </section>
+    <section id="Dogs" class="main-section">
+  <header>Dogs</header>  <p>
+      Dogs are not equal to cats:   </p><code>dogs != cats</code>
+      
+  </section>
+    <section id="Cats" class="main-section">
+  <header>Cats</header>  <p>
+    This is the main text
+  </p>
+  </section>
+    <section id="Rabbits" class="main-section">
+  <header>Rabbits</header>  <p>
+    Kinds of rabbits
+  </p>
+      <ul>
+        <li>bugs bunny</li>
+        <li>ariete</li>
+        <li>nano</li>
+        <li>boh</li>
+        <li>cincillà (forse no)</li>
+      </ul>
+  </section>
+    <section id="Furetti" class="main-section">
+  <header>Furetti</header>  <p>
+    This means ferrets in italian.
+  </p>
+  </section>
+
+</main>
+<!-- CSS -->
+#navbar {
+  font-family: calibri;
+  position: fixed;
+  display: block;
+  background-color: lightgray;
+  float: left;
+  height: 100%;
+  padding: 1rem;
+  margin: -0.5em;
+}
+
+header {
+  font-size: 1.5rem;
+  background-color: lightgray;
+}
+.nav-link {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+#main-doc {
+  font-family: calibri;
+  padding-left: 16rem;
+}
+.main-section {
+  color: black;
+}
+
+@media screen (max-width: 600px) {
+  #navbar {
+    font-size: 0.5rem;
+  }
+}
